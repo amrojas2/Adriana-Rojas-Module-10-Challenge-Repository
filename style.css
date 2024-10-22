@@ -179,7 +179,105 @@ body {
 }
 
 /* Media Queries */
+@media (max-width: 480px) {
+  body {
+      font-size: 14px; /* Reduce font size for better readability */
+  }
 
+  h1 {
+      font-size: 24px; /* Adjust heading size */
+  }
+
+  h2, h3 {
+      font-size: 20px; /* Adjust heading sizes */
+  }
+
+  nav li {
+      font-size: 16px; /* Adjust navbar font size */
+      margin: 0 0.5rem; /* Reduce navbar item margin */
+  }
+
+  .main {
+      padding: 15px; /* Reduce padding in main content */
+  }
+
+  article {
+      flex-basis: 100%; /* Full width for articles */
+      padding-right: 0; /* Remove padding */
+  }
+
+  figure {
+      margin: 30px 0; /* Adjust margin */
+  }
+
+  .button {
+      width: 100%; /* Make buttons full-width */
+      margin: 10px 0; /* Space between buttons */
+  }
+
+  footer {
+      font-size: 12px; /* Adjust footer font size */
+  }
+
+  footer a {
+      font-size: 12px; /* Adjust footer link size */
+  }
+
+  .product-card {
+      width: 95%; /* Make product cards wider on mobile */
+      margin: 5px auto; /* Center product cards */
+  }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Reduce font size for better readability */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust heading size */
+    }
+
+    h2, h3 {
+        font-size: 20px; /* Adjust heading sizes */
+    }
+
+    nav li {
+        font-size: 16px; /* Adjust navbar font size */
+        margin: 0 0.5rem; /* Reduce navbar item margin */
+    }
+
+    .main {
+        padding: 15px; /* Reduce padding in main content */
+    }
+
+    article {
+        flex-basis: 100%; /* Full width for articles */
+        padding-right: 0; /* Remove padding */
+    }
+
+    figure {
+        margin: 30px 0; /* Adjust margin */
+    }
+
+    .button {
+        width: 100%; /* Make buttons full-width */
+        margin: 10px 0; /* Space between buttons */
+    }
+
+    footer {
+        font-size: 12px; /* Adjust footer font size */
+    }
+
+    footer a {
+        font-size: 12px; /* Adjust footer link size */
+    }
+
+    .product-card {
+        width: 95%; /* Make product cards wider on mobile */
+        margin: 5px auto; /* Center product cards */
+    }
+}
 
 @media (max-width: 480px) {
     .product-card {
