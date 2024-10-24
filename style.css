@@ -274,16 +274,27 @@ body {
     }
 
     .product-card {
-        width: 95%; /* Make product cards wider on mobile */
+        width: 90%; /* Make product cards wider on mobile */
         margin: 5px auto; /* Center product cards */
+    }
+
+    nav ul {
+      flex-direction: column; /* Stack navbar items vertically */
+      align-items: center; /* Center align items */
+      
+  }
+
+  nav li {
+      margin: .25; /* Adjust margin for stacked items */
+  }
+
+    h1, h2, h3 {
+        text-align: center; /* Center align headers on mobile */
     }
 }
 
-@media (max-width: 480px) {
-    .product-card {
-        width: 90%; /* Adjust width for smaller screens */
-    }
-}
+
+
 
 /* Medium Viewport (768px and above) */
 @media (min-width: 768px) {
